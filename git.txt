@@ -1,0 +1,162 @@
+
+Nilesh@SameerPatil MINGW64 ~/Desktop
+$ ls
+'~$nsumable PR creation.docx'  'Internet Explorer.lnk'*   Selenium/
+ µTorrent.lnk*                  LSMW/                     Selinium07/
+'Cisco Webex Meetings.lnk'*     ltmc/                    'Spain Merger'/
+ desktop.ini                   'New Text Document.txt'    Thumbs.db
+'IAI all Doc'/                  notes/                    Zoom.lnk*
+ INFY.txt                      'QM Report'/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop
+$ cd Selenium/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ cd
+
+Nilesh@SameerPatil MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{64360563-a78d-11e9-943f-68a3c44a51ec}.TM.blf
+ ntuser.dat{64360563-a78d-11e9-943f-68a3c44a51ec}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{64360563-a78d-11e9-943f-68a3c44a51ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{7ca9ba65-c30d-11e9-a8fc-68a3c44a51ec}.TM.blf
+ ntuser.dat{7ca9ba65-c30d-11e9-a8fc-68a3c44a51ec}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{7ca9ba65-c30d-11e9-a8fc-68a3c44a51ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{f218e3e5-b1c2-11e9-8cd2-68a3c44a51ec}.TM.blf
+ ntuser.dat{f218e3e5-b1c2-11e9-8cd2-68a3c44a51ec}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{f218e3e5-b1c2-11e9-8cd2-68a3c44a51ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
+Nilesh@SameerPatil MINGW64 ~
+$ cd Desktop/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop
+$ cd Selenium/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ cd-
+bash: cd-: command not found
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ cd -
+/c/Users/Nilesh/Desktop
+
+Nilesh@SameerPatil MINGW64 ~/Desktop
+$ ls
+'~$nsumable PR creation.docx'  'Internet Explorer.lnk'*   Selenium/
+ µTorrent.lnk*                  LSMW/                     Selinium07/
+'Cisco Webex Meetings.lnk'*     ltmc/                    'Spain Merger'/
+ desktop.ini                   'New Text Document.txt'    Thumbs.db
+'IAI all Doc'/                  notes/                    Zoom.lnk*
+ INFY.txt                      'QM Report'/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop
+$ cd Selenium/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ ls
+ ajit_pro/                                                 lion-animal-013.jpg
+ black-cool-dark-laptop-background-wallpaper-preview.jpg   README.md
+'Capture vk2.JPG'
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ajit_pro/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium (master)
+$ cd ajit_pro/
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (master)
+$ ls
+black-cool-dark-laptop-background-wallpaper-preview.jpg  README.md
+lion-animal-013.jpg
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (master)
+$ git status                   -----------------------------------------------git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        black-cool-dark-laptop-background-wallpaper-preview.jpg
+        lion-animal-013.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (master)
+$ git checkout -b feature   -------------------------------------------------new branch creates-:feature
+Switched to a new branch 'feature'
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$ git status
+On branch feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        black-cool-dark-laptop-background-wallpaper-preview.jpg
+        lion-animal-013.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$ git add black-cool-dark-laptop-background-wallpaper-preview.jpg lion-animal-013.jpg
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$ git commit -m "from nik"  --------------------------------------------------------------------commit with msg
+[feature 19660a0] from nik
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 black-cool-dark-laptop-background-wallpaper-preview.jpg
+ create mode 100644 lion-animal-013.jpg
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$ git push  -------------------------------------------------------------------------------push the file
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature   -----------------------------------------------push the file
+
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$  git push --set-upstream origin feature
+remote: Permission to dhananjay-hash/ajit_pro.git denied to mylordnp.
+fatal: unable to access 'https://github.com/dhananjay-hash/ajit_pro.git/': The requested URL returned error: 403   ----give error because Dhanjay not accepted my request--to send request go to repository and send request ---through email dhanjay can accept request
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$ ^C
+
+Nilesh@SameerPatil MINGW64 ~/Desktop/Selenium/ajit_pro (feature)
+$
